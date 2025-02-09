@@ -3,7 +3,7 @@ import Link from "next/link";
 
 export default function Header() {
   return (
-    <header className="p-8">
+    <header className="pl-8 pr-8 pt-8">
       {/* Logo */}
       <div className="flex justify-center mb-10">
         <Link href="/">
