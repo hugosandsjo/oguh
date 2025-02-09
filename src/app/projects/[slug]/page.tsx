@@ -3,16 +3,11 @@ import { illustrations } from "@/data/illustrations";
 import { notFound } from "next/navigation";
 import ImageCarousel from "@/components/ImageCarousel";
 
-// Updated type definition to match Next.js App Router expectations
-type Props = {
-  params: {
-    slug: string;
-  };
-  searchParams: { [key: string]: string | string[] | undefined };
-};
-
-// Change the function signature to use the new type
-export default function ProjectPage({ params }: Props) {
+export default async function ProjectPage({
+  params,
+}: {
+  params: { slug: string };
+}) {
   const project = illustrations.find(
     (illustration) => illustration.slug === params.slug
   );
@@ -28,7 +23,7 @@ export default function ProjectPage({ params }: Props) {
         <p className="text-gray-600 mb-12">{project.description}</p>
 
         {/* Main Image */}
-        <div className="relative h-full aspect-[1/1] w-full mb-12 bg-gray-100 overflow-hidden">
+        <div className="relative h-full aspect-[16/9] w-full mb-12 bg-gray-100 overflow-hidden">
           <Image
             src={project.imagePath}
             alt={project.title}
