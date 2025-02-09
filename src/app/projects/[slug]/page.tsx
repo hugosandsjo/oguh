@@ -1,35 +1,48 @@
-import { Metadata } from "next";
 import Image from "next/image";
 import { illustrations } from "@/data/illustrations";
 import { notFound } from "next/navigation";
 import ImageCarousel from "@/components/ImageCarousel";
+import type { Metadata, ResolvingMetadata } from "next";
 
 type Props = {
-  params: { slug: string };
-  searchParams: { [key: string]: string | string[] | undefined };
+  params: Promise<{ slug: string }>;
+  searchParams: Promise<{ [key: string]: string | string[] | undefined }>;
 };
 
-// // Add metadata generation
-// export async function generateMetadata({ params }: Props): Promise<Metadata> {
-//   const project = illustrations.find(
-//     (illustration) => illustration.slug === params.slug
-//   );
+export async function generateMetadata(
+  { params }: Props,
+  parent: ResolvingMetadata
+): Promise<Metadata> {
+  // read route params
+  const { slug } = await params;
 
-//   if (!project) {
-//     return {
-//       title: "Project Not Found",
-//     };
-//   }
-
-//   return {
-//     title: project.title,
-//     description: project.description,
-//   };
-// }
-
-export default function ProjectPage({ params }: Props) {
+  // find project
   const project = illustrations.find(
-    (illustration) => illustration.slug === params.slug
+    (illustration) => illustration.slug === slug
+  );
+
+  if (!project) {
+    return {
+      title: "Project Not Found",
+    };
+  }
+
+  // optionally access and extend parent metadata
+  const previousImages = (await parent).openGraph?.images || [];
+
+  return {
+    title: project.title,
+    description: project.description,
+    openGraph: {
+      images: [project.imagePath, ...previousImages],
+    },
+  };
+}
+
+export default async function ProjectPage({ params }: Props) {
+  const { slug } = await params;
+  const project = illustrations.find(
+    (illustration) => illustration.slug === slug
   );
 
   if (!project) {
