@@ -3,14 +3,16 @@ import { illustrations } from "@/data/illustrations";
 import { notFound } from "next/navigation";
 import ImageCarousel from "@/components/ImageCarousel";
 
-type PageProps = {
+// Updated type definition to match Next.js App Router expectations
+type Props = {
   params: {
     slug: string;
   };
   searchParams: { [key: string]: string | string[] | undefined };
 };
 
-export default function ProjectPage({ params }: PageProps) {
+// Change the function signature to use the new type
+export default function ProjectPage({ params }: Props) {
   const project = illustrations.find(
     (illustration) => illustration.slug === params.slug
   );
