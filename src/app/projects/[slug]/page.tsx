@@ -3,13 +3,14 @@ import { illustrations } from "@/data/illustrations";
 import { notFound } from "next/navigation";
 import ImageCarousel from "@/components/ImageCarousel";
 
-type Props = {
+type PageProps = {
   params: {
     slug: string;
   };
+  searchParams: { [key: string]: string | string[] | undefined };
 };
 
-export default function ProjectPage({ params }: Props) {
+export default function ProjectPage({ params }: PageProps) {
   const project = illustrations.find(
     (illustration) => illustration.slug === params.slug
   );
