@@ -26,9 +26,7 @@ export default function ProjectsPage() {
               href={`/projects/${project.slug}`}
               className="group"
             >
-              <div
-                className={`relative ${project.aspectRatio} w-full rounded-lg overflow-hidden bg-gray-100 mb-4`}
-              >
+              <div className="relative w-full rounded-lg overflow-hidden bg-gray-100 mb-4">
                 <div
                   className={`absolute inset-0 ${project.color} animate-pulse`}
                 />

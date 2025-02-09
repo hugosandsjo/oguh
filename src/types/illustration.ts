@@ -3,7 +3,6 @@ export type Illustration = {
   slug: string;
   title: string;
   imagePath: string;
-  aspectRatio: string;
   color: string;
   description?: string;
   additionalImages?: string[];
