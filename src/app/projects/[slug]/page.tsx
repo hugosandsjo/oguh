@@ -3,11 +3,13 @@ import { illustrations } from "@/data/illustrations";
 import { notFound } from "next/navigation";
 import ImageCarousel from "@/components/ImageCarousel";
 
-export default async function ProjectPage({
-  params,
-}: {
-  params: { slug: string };
-}) {
+type Props = {
+  params: {
+    slug: string;
+  };
+};
+
+export default function ProjectPage({ params }: Props) {
   const project = illustrations.find(
     (illustration) => illustration.slug === params.slug
   );
@@ -45,9 +47,8 @@ export default async function ProjectPage({
   );
 }
 
-// Generate static params for all projects
-// export function generateStaticParams() {
-//   return illustrations.map((illustration) => ({
-//     slug: illustration.slug,
-//   }));
-// }
+export function generateStaticParams(): Array<Props["params"]> {
+  return illustrations.map((illustration) => ({
+    slug: illustration.slug,
+  }));
+}
