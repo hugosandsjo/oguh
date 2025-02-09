@@ -1,17 +1,35 @@
+import { Metadata } from "next";
 import Image from "next/image";
 import { illustrations } from "@/data/illustrations";
 import { notFound } from "next/navigation";
 import ImageCarousel from "@/components/ImageCarousel";
 
 type Props = {
-  params: Promise<{ slug: string }>;
+  params: { slug: string };
   searchParams: { [key: string]: string | string[] | undefined };
 };
 
-export default async function ProjectPage({ params }: Props) {
-  const { slug } = await params;
+// Add metadata generation
+export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const project = illustrations.find(
-    (illustration) => illustration.slug === slug
+    (illustration) => illustration.slug === params.slug
+  );
+
+  if (!project) {
+    return {
+      title: "Project Not Found",
+    };
+  }
+
+  return {
+    title: project.title,
+    description: project.description,
+  };
+}
+
+export default function ProjectPage({ params }: Props) {
+  const project = illustrations.find(
+    (illustration) => illustration.slug === params.slug
   );
 
   if (!project) {
