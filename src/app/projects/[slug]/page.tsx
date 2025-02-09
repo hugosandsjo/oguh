@@ -46,8 +46,8 @@ export default async function ProjectPage({
 }
 
 // Generate static params for all projects
-export function generateStaticParams() {
-  return illustrations.map((illustration) => ({
-    slug: illustration.slug,
-  }));
-}
+// export function generateStaticParams() {
+//   return illustrations.map((illustration) => ({
+//     slug: illustration.slug,
+//   }));
+// }
