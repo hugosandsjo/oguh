@@ -12,8 +12,8 @@ export default function ContactPage() {
             {/* About Text */}
             <div className="space-y-6 mb-12">
               <p className="text-gray-600">
-                Hi! I'm Hugo Sandsjö, illustrator and motion designer based in
-                Gothenburg, Sweden. My work can be described as fun, bold and
+                Hi! I&apos;m Hugo Sandsjö, illustrator and motion designer based
+                in Gothenburg, Sweden. My work can be described as fun, bold and
                 colourful.
               </p>
               <p className="text-gray-600">
@@ -21,7 +21,7 @@ export default function ContactPage() {
                 respect for the handicraft and a curiosity for the digital.
               </p>
               <p className="text-gray-600">
-                Don't hesitate to contact me If you have any inquiries!
+                Don&apos;t hesitate to contact me If you have any inquiries!
               </p>
             </div>
 
