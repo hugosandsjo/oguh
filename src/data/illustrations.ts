@@ -10,29 +10,13 @@ export const illustrations: Illustration[] = [
     description: "A fresh illustration introducing new concepts and styles.",
   },
   {
-    id: 12,
-    slug: "what-a-time",
-    title: "What a Time",
-    imagePath: "/images/whatatimetobealive2.jpg",
-    color: "bg-cyan-200",
-    description: "Contemporary illustration reflecting modern times.",
-  },
-  {
-    id: 27,
-    slug: "color-studies",
-    title: "Color Studies",
-    imagePath: "/images/Roda2.jpg",
-    color: "bg-green-100",
-    description: "Series of color studies exploring different palettes.",
-    additionalImages: ["/images/Roda2.jpg"],
-  },
-  {
-    id: 9,
-    slug: "procreate-shadows",
-    title: "Procreate Shadows",
-    imagePath: "/images/Procreate_shadows.jpg",
-    color: "bg-rose-200",
-    description: "Digital artwork exploring light and shadow techniques.",
+    id: 5,
+    slug: "ungdomar",
+    title: "Ungdomar",
+    imagePath: "/images/Ungdomar_Final.jpg",
+    color: "bg-indigo-200",
+    description:
+      "Illustration project focused on youth and contemporary social themes.",
   },
   {
     id: 1,
@@ -42,6 +26,23 @@ export const illustrations: Illustration[] = [
     color: "bg-emerald-200",
     description:
       "A moody illustration exploring nighttime forest scenes with atmospheric lighting and detailed environments.",
+  },
+  {
+    id: 26,
+    slug: "color-studies",
+    title: "Color Studies",
+    imagePath: "/images/Grona2.jpg",
+    color: "bg-green-100",
+    description: "Series of color studies exploring different palettes.",
+    additionalImages: ["/images/Roda2.jpg"],
+  },
+  {
+    id: 19,
+    slug: "what-a-time-colors",
+    title: "What a Time Colors",
+    imagePath: "/images/colorswhatatime2.jpg",
+    color: "bg-purple-100",
+    description: "Vibrant color exploration in illustration.",
   },
   {
     id: 2,
@@ -71,6 +72,15 @@ export const illustrations: Illustration[] = [
       "Animated illustration capturing the essence of vacation and leisure time.",
   },
   {
+    id: 27,
+    slug: "color-studies",
+    title: "Color Studies",
+    imagePath: "/images/Roda2.jpg",
+    color: "bg-green-100",
+    description: "Series of color studies exploring different palettes.",
+    additionalImages: ["/images/Roda2.jpg"],
+  },
+  {
     id: 4,
     slug: "bird-and-girl",
     title: "Bird and Girl",
@@ -80,37 +90,12 @@ export const illustrations: Illustration[] = [
       "Animated story featuring the interaction between a girl and a bird.",
   },
   {
-    id: 5,
-    slug: "ungdomar",
-    title: "Ungdomar",
-    imagePath: "/images/Ungdomar_Final.jpg",
-    color: "bg-indigo-200",
-    description:
-      "Illustration project focused on youth and contemporary social themes.",
-  },
-  {
-    id: 6,
-    slug: "skolor",
-    title: "Skolor",
-    imagePath: "/images/Skolor_Final.jpg",
-    color: "bg-pink-200",
-    description: "Educational themed illustration series.",
-  },
-  {
     id: 7,
     slug: "tillit",
     title: "Tillit",
     imagePath: "/images/tillit.png",
     color: "bg-orange-200",
     description: "Illustration exploring themes of trust and human connection.",
-  },
-  {
-    id: 8,
-    slug: "housing-and-characters",
-    title: "Housing & Characters",
-    imagePath: "/images/housingandcharactersweb.jpg",
-    color: "bg-teal-200",
-    description: "Architectural and character design fusion illustration.",
   },
 
   {
@@ -139,14 +124,6 @@ export const illustrations: Illustration[] = [
     additionalImages: ["/images/mysticman_2_textur_redigerad_mörkare_2.jpg"],
   },
   {
-    id: 15,
-    slug: "jungle-scene",
-    title: "Jungle Scene",
-    imagePath: "/images/jungle.jpg",
-    color: "bg-lime-200",
-    description: "Lush jungle environment illustration with rich details.",
-  },
-  {
     id: 16,
     slug: "snake-animation",
     title: "Snake Animation",
@@ -170,14 +147,6 @@ export const illustrations: Illustration[] = [
     imagePath: "/images/housingandcharactersweb.jpg",
     color: "bg-yellow-100",
     description: "Playful illustration with a touch of humor.",
-  },
-  {
-    id: 19,
-    slug: "what-a-time-colors",
-    title: "What a Time Colors",
-    imagePath: "/images/colorswhatatime2.jpg",
-    color: "bg-purple-100",
-    description: "Vibrant color exploration in illustration.",
   },
   {
     id: 20,
@@ -204,14 +173,6 @@ export const illustrations: Illustration[] = [
     description: "Illustration reflecting on the pandemic period.",
   },
   {
-    id: 23,
-    slug: "try-color",
-    title: "Try Color",
-    imagePath: "/images/trycolor_5.jpg",
-    color: "bg-teal-100",
-    description: "Experimental color study in illustration.",
-  },
-  {
     id: 24,
     slug: "testa",
     title: "Testa",
@@ -226,15 +187,6 @@ export const illustrations: Illustration[] = [
     imagePath: "/images/pink.jpg",
     color: "bg-pink-200",
     description: "Monochromatic exploration in pink tones.",
-  },
-  {
-    id: 26,
-    slug: "color-studies",
-    title: "Color Studies",
-    imagePath: "/images/Grona2.jpg",
-    color: "bg-green-100",
-    description: "Series of color studies exploring different palettes.",
-    additionalImages: ["/images/Roda2.jpg"],
   },
   {
     id: 29,
@@ -275,6 +227,14 @@ export const illustrations: Illustration[] = [
     imagePath: "/images/walking_man.gif",    
     color: "bg-rose-200",
     description: "Illustration project celebrating creativity and art.",
+  },
+  {
+    id: 6,
+    slug: "skolor",
+    title: "Skolor",
+    imagePath: "/images/Skolor_Final.jpg",
+    color: "bg-pink-200",
+    description: "Educational themed illustration series.",
   },
 ];
 
