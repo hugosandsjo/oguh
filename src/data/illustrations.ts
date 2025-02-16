@@ -2,6 +2,39 @@ import { Illustration } from "@/types/illustration";
 
 export const illustrations: Illustration[] = [
   {
+    id: 28,
+    slug: "fullkoll-illustration",
+    title: "Fullkoll Illustration",
+    imagePath: "/images/projects/fullkoll/fullkoll_06.jpg",
+    color: "bg-cyan-200",
+    description: "A fresh illustration introducing new concepts and styles.",
+  },
+  {
+    id: 12,
+    slug: "what-a-time",
+    title: "What a Time",
+    imagePath: "/images/whatatimetobealive2.jpg",
+    color: "bg-cyan-200",
+    description: "Contemporary illustration reflecting modern times.",
+  },
+  {
+    id: 27,
+    slug: "color-studies",
+    title: "Color Studies",
+    imagePath: "/images/Roda2.jpg",
+    color: "bg-green-100",
+    description: "Series of color studies exploring different palettes.",
+    additionalImages: ["/images/Roda2.jpg"],
+  },
+  {
+    id: 9,
+    slug: "procreate-shadows",
+    title: "Procreate Shadows",
+    imagePath: "/images/Procreate_shadows.jpg",
+    color: "bg-rose-200",
+    description: "Digital artwork exploring light and shadow techniques.",
+  },
+  {
     id: 1,
     slug: "night-in-the-woods",
     title: "Night in the Woods",
@@ -18,6 +51,15 @@ export const illustrations: Illustration[] = [
     color: "bg-blue-200",
     description:
       "A collection of diverse character designs showcasing different personalities and styles.",
+  },
+  {
+    id: 10,
+    slug: "flower-series",
+    title: "Flower Series",
+    imagePath: "/images/flower_2.png",
+    color: "bg-green-200",
+    description: "A series of floral illustrations showcasing natural beauty.",
+    additionalImages: ["/images/flower_2.png", "/images/flower_3.png"],
   },
   {
     id: 3,
@@ -70,23 +112,7 @@ export const illustrations: Illustration[] = [
     color: "bg-teal-200",
     description: "Architectural and character design fusion illustration.",
   },
-  {
-    id: 9,
-    slug: "procreate-shadows",
-    title: "Procreate Shadows",
-    imagePath: "/images/Procreate_shadows.jpg",
-    color: "bg-rose-200",
-    description: "Digital artwork exploring light and shadow techniques.",
-  },
-  {
-    id: 10,
-    slug: "flower-series",
-    title: "Flower Series",
-    imagePath: "/images/flower_2.png",
-    color: "bg-green-200",
-    description: "A series of floral illustrations showcasing natural beauty.",
-    additionalImages: ["/images/flower_2.png", "/images/flower_3.png"],
-  },
+
   {
     id: 11,
     slug: "cowboy",
@@ -94,14 +120,6 @@ export const illustrations: Illustration[] = [
     imagePath: "/images/Cowboy.jpg",
     color: "bg-amber-200",
     description: "Character illustration featuring a western theme.",
-  },
-  {
-    id: 12,
-    slug: "what-a-time",
-    title: "What a Time",
-    imagePath: "/images/whatatimetobealive2.jpg",
-    color: "bg-cyan-200",
-    description: "Contemporary illustration reflecting modern times.",
   },
   {
     id: 13,
@@ -219,14 +237,44 @@ export const illustrations: Illustration[] = [
     additionalImages: ["/images/Roda2.jpg"],
   },
   {
-    id: 27,
-    slug: "color-studies",
-    title: "Color Studies",
-    imagePath: "/images/Roda2.jpg",
-    color: "bg-green-100",
-    description: "Series of color studies exploring different palettes.",
-    additionalImages: ["/images/Roda2.jpg"],
+    id: 29,
+    slug: "pink-gif",
+    title: "Pink GIF",
+    imagePath: "/images/pink_gif.gif",
+    color: "bg-pink-200",
+    description: "Animated illustration exploring pink tones.",
+  },
+  {
+    id: 30,
+    slug: "illustration-festival",
+    title: "Illustration Festival",
+    imagePath: "/images/projects/bildvarld/festival_poster.jpg",    
+    color: "bg-rose-200",
+    description: "Illustration project celebrating creativity and art.",
+  },
+  {
+    id: 31,
+    slug: "fattigdomsrapporten",
+    title: "Fattigdomsrapporten",
+    imagePath: "/images/fattigdomsrapport.jpg",
+    color: "bg-orange-200",
+    description: "Editorial illustration addressing social issues and poverty.",
+  },
+  {
+    id: 32,
+    slug: "bird-gif",
+    title: "Bird aniumation",
+    imagePath: "/images/final.gif",
+    color: "bg-rose-200",
+    description: "Illustration project celebrating creativity and art."
+  },
+  {
+    id: 33,
+    slug: "walking-animation",
+    title: "Walking with hat",
+    imagePath: "/images/walking_man.gif",    
+    color: "bg-rose-200",
+    description: "Illustration project celebrating creativity and art.",
   },
 ];
 
-console.log(illustrations);
