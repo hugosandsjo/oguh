@@ -53,17 +53,20 @@ export default async function ProjectPage({ params }: Props) {
     <div className="p-8">
       <div className="max-w-5xl mx-auto">
         <h1 className="text-4xl font-semibold mb-6">{project.title}</h1>
-        <p className="text-gray-600 mb-12">{project.description}</p>
+        <p className="text-lg mb-12">{project.description}</p>
 
         {/* Main Image */}
-        <div className="relative h-full aspect-[16/9] w-full mb-12 bg-gray-100 overflow-hidden">
-          <Image
-            src={project.imagePath}
-            alt={project.title}
-            fill
-            priority
-            className="object-cover"
-          />
+        <div className="relative w-full mb-12 bg-gray-100 overflow-hidden">
+          <div className="relative w-full h-auto">
+            <Image
+              src={project.imagePath}
+              alt={project.title}
+              width={1200}
+              height={800}
+              priority
+              className="w-full h-auto"
+            />
+          </div>
         </div>
 
         {/* Additional Images */}

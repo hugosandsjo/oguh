@@ -39,7 +39,7 @@ export default function ProjectsPage() {
                 />
               </div>
               <h2 className="text-xl font-light mb-2">{project.title}</h2>
-              <p className="text-gray-600 font-light">{project.description}</p>
+              <p className="text-xl">{project.description}</p>
             </Link>
           ))}
         </div>
