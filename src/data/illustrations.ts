@@ -9,12 +9,12 @@ export const illustrations: Illustration[] = [
     color: "bg-cyan-200",
     description: "Together with Gullersgrupp, I developed a set of illustrations and visual identity for the County Administrative Board and the 'Full Koll’ campaign. Intended to inform teenage parents about setting boundaries around alcohol and drugs and the importance of talking about the subject.",
     additionalImages: [
+      "/images/projects/fullkoll/firstdude.jpg",
       "/images/projects/fullkoll/fullkoll_01.jpg",
       "/images/projects/fullkoll/fullkoll_02.jpg",
       "/images/projects/fullkoll/fullkoll_03.jpg",
       "/images/projects/fullkoll/fullkoll_04.jpg",
       "/images/projects/fullkoll/fullkoll_05.jpg",
-      "/images/projects/fullkoll/mobilefirst.jpg",
       "/images/projects/fullkoll/mobilefirst.jpg",
       "/images/projects/fullkoll/mobilesecond.jpg",
       "/images/projects/fullkoll/mobilethird.jpg",
@@ -176,7 +176,8 @@ export const illustrations: Illustration[] = [
     title: "Illustration Festival",
     imagePath: "/images/projects/bildvarld/festival_poster.jpg",    
     color: "bg-rose-200",
-    description: "Illustration project celebrating creativity and art.",
+    description: "Image created for Bildvärld/Gränslands yearly illustration-festival in Malmö, Sweden. (2024)",
+    additionalImages: ["/images/projects/bildvarld/P1053754.jpg", "/images/projects/bildvarld/P1053583.jpg"],
   },
   {
     id: 19,
