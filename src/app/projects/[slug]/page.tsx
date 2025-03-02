@@ -11,7 +11,7 @@ type Props = {
 };
 
 export async function generateMetadata(
-  { params }: Props,
+  { params, searchParams }: Props,
   parent: ResolvingMetadata
 ): Promise<Metadata> {
   // read route params
@@ -43,7 +43,13 @@ export async function generateMetadata(
   };
 }
 
-export default function ProjectPage({ params, searchParams }: Props) {
+export default function ProjectPage({
+  params,
+  searchParams,
+}: {
+  params: { slug: string };
+  searchParams: { [key: string]: string | string[] | undefined };
+}) {
   const { slug } = params;
   
   // Find all illustrations with this slug
