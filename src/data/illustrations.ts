@@ -34,12 +34,13 @@ export const illustrations: Illustration[] = [
   },
   {
     id: 3,
-    slug: "night-in-the-woods",
-    title: "Night in the Woods",
+    slug: "environment",
+    title: "Environment",
     imagePath: "/images/nightinthewoods_medexposure.jpg",
     color: "bg-emerald-200",
     description:
       "A moody illustration exploring nighttime forest scenes with atmospheric lighting and detailed environments.",
+      additionalImages: ["/images/jungle.jpg", "/images/nightforest.jpg", "/images/pink.jpg"],
   },
   {
     id: 4,
@@ -65,7 +66,7 @@ export const illustrations: Illustration[] = [
     imagePath: "/images/characterposter_2022.jpg",
     color: "bg-blue-200",
     description:
-      "A collection of diverse character designs showcasing different personalities and styles.",
+      "",
   },
   {
     id: 7,
@@ -79,11 +80,12 @@ export const illustrations: Illustration[] = [
   {
     id: 8,
     slug: "animations",
-    title: "Vacation",
+    title: "Animations",
     imagePath: "/images/Main_vacation.gif",
     color: "bg-yellow-200",
     description:
-      "Animated illustration capturing the essence of vacation and leisure time.",
+      "Collection of short animations",
+      additionalImages: ["/images/projects/animations/Final.gif", "/images/projects/animations/hatet.gif", "/images/projects/animations/Instagram_birdandgirl.gif", "/images/projects/animations/Manonamissiongif.gif", "/images/projects/animations/Main_snake.gif"],
   },
   {
     id: 9,
@@ -96,7 +98,7 @@ export const illustrations: Illustration[] = [
   },
   {
     id: 10,
-    slug: "bird-and-girl",
+    slug: "animations",
     title: "Bird and Girl",
     imagePath: "/images/Instagram_birdandgirl.gif",
     color: "bg-purple-200",
@@ -113,16 +115,17 @@ export const illustrations: Illustration[] = [
   },
   {
     id: 12,
-    slug: "cowboy",
-    title: "Cowboy",
+    slug: "various-illustrations",
+    title: "Various illustrations",
     imagePath: "/images/Cowboy.jpg",
     color: "bg-amber-200",
     description: "Character illustration featuring a western theme.",
+
   },
   {
     id: 13,
-    slug: "night-forest",
-    title: "Night Forest",
+    slug: "environments",
+    title: "Environments",
     imagePath: "/images/nightforest.jpg",
     color: "bg-violet-200",
     description: "Atmospheric forest scene with mystical elements.",
@@ -138,7 +141,7 @@ export const illustrations: Illustration[] = [
   },
   {
     id: 15,
-    slug: "snake-animation",
+    slug: "animations",
     title: "Snake Animation",
     imagePath: "/images/Main_snake.gif",
     color: "bg-emerald-100",
@@ -155,8 +158,8 @@ export const illustrations: Illustration[] = [
   },
   {
     id: 17,
-    slug: "mixed-illustrations",
-    title: "Mixed Illustrations",
+    slug: "various-illustrations",
+    title: "Various illustrations",
     imagePath: "/images/housingandcharactersweb.jpg",
     color: "bg-yellow-100",
     description: "Playful illustration with a touch of humor.",
@@ -182,7 +185,7 @@ export const illustrations: Illustration[] = [
   {
     id: 19,
     slug: "fattigdom",
-    title: "Fattigdomsrapport",
+    title: "Fattigdomsrapporten",
     imagePath: "/images/fattigdomsrapport.jpg",
     color: "bg-orange-100",
     description: "Editorial illustration addressing social issues and poverty.",
@@ -194,10 +197,11 @@ export const illustrations: Illustration[] = [
     imagePath: "/images/hoppicorona.jpeg",
     color: "bg-pink-100",
     description: "Illustration reflecting on the pandemic period.",
+    additionalImages: ["/images/projects/hopp_i_corona/illustratorcentrum_2021.png", "/images/projects/hopp_i_corona/IMG_0563.png", "/images/projects/hopp_i_corona/IMG_0715.png", "/images/projects/hopp_i_corona/IMG_5323.png", "/images/projects/hopp_i_corona/IMG_5380.png", "/images/projects/hopp_i_corona/IMG_5465.png"]
   },
   {
     id: 21,
-    slug: "Various illustrations",
+    slug: "various-illustrations",
     title: "Various Illustrations",
     imagePath: "/images/testatesta_5.jpg",
     color: "bg-indigo-100",
@@ -205,16 +209,16 @@ export const illustrations: Illustration[] = [
   },
   {
     id: 22,
-    slug: "pink-study",
-    title: "Pink Study",
+    slug: "various-illustrations",
+    title: "Various illustrations",
     imagePath: "/images/pink.jpg",
     color: "bg-pink-200",
     description: "Monochromatic exploration in pink tones.",
   },
   {
     id: 23,
-    slug: "pink-gif",
-    title: "Pink GIF",
+    slug: "animations",
+    title: "Animations",
     imagePath: "/images/pink_gif.gif",
     color: "bg-pink-200",
     description: "Animated illustration exploring pink tones.",
@@ -229,8 +233,8 @@ export const illustrations: Illustration[] = [
   },
   {
     id: 26,
-    slug: "bird-gif",
-    title: "Bird animation",
+    slug: "animations",
+    title: "Animations",
     imagePath: "/images/final.gif",
     color: "bg-rose-200",
     description: "Illustration project celebrating creativity and art."
@@ -242,5 +246,13 @@ export const illustrations: Illustration[] = [
     imagePath: "/images/Skolor_Final.jpg",
     color: "bg-pink-200",
     description: "Educational themed illustration series.",
+  },
+  {
+    id: 29,
+    slug: "what-a-time-to-be-alive",
+    title: "What a time to be alive",
+    imagePath: "/images/whatatimetobealive2.jpg",
+    color: "bg-purple-200",
+    description: "",
   },
 ];
