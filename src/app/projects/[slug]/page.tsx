@@ -5,10 +5,10 @@ import ImageCarousel from "@/components/ImageCarousel";
 import type { Metadata, ResolvingMetadata } from "next";
 import BackToHomeButton from "@/components/BackToHomeButton";
 
-// Define the props for the page component
+// Define the props for the page component with both params and searchParams as promises
 type PageProps = {
   params: Promise<{ slug: string }>;
-  searchParams?: { [key: string]: string | string[] | undefined };
+  searchParams: Promise<{ [key: string]: string | string[] | undefined }>;
 };
 
 export async function generateMetadata(
@@ -44,10 +44,11 @@ export async function generateMetadata(
   };
 }
 
-// Make the page component async to handle the Promise<params>
-export default async function Page({ params, searchParams = {} }: PageProps) {
-  // Resolve the params promise to get the slug
+// Make the page component async to handle the Promise<params> and Promise<searchParams>
+export default async function Page({ params, searchParams }: PageProps) {
+  // Resolve both promises
   const { slug } = await params;
+  const resolvedSearchParams = await searchParams;
   
   // Find all illustrations with this slug
   const relatedIllustrations = illustrations.filter(
@@ -59,7 +60,7 @@ export default async function Page({ params, searchParams = {} }: PageProps) {
   }
 
   // Get the imageIndex from the query params (which illustration in the related group)
-  const imageIndexParam = searchParams.imageIndex;
+  const imageIndexParam = resolvedSearchParams.imageIndex;
   const imageIndex = typeof imageIndexParam === 'string' ? 
     parseInt(imageIndexParam, 10) : 0;
   
