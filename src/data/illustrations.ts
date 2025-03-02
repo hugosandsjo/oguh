@@ -30,7 +30,7 @@ export const illustrations: Illustration[] = [
     color: "bg-indigo-200",
     description:
       "Illustration project focused on youth and contemporary social themes.",
-    additionalImages: ["/images/projects/uppsalastadsteater/Ungdomar_Final.jpg", "/images/projects/uppsalastadsteater/Skolor_Final.jpg"],
+    // additionalImages: ["/images/projects/uppsalastadsteater/Ungdomar_Final.jpg", "/images/projects/uppsalastadsteater/Skolor_Final.jpg"],
   },
   {
     id: 3,
@@ -85,7 +85,7 @@ export const illustrations: Illustration[] = [
     color: "bg-yellow-200",
     description:
       "Collection of short animations",
-      additionalImages: ["/images/projects/animations/Final.gif", "/images/projects/animations/hatet.gif", "/images/projects/animations/Instagram_birdandgirl.gif", "/images/projects/animations/Manonamissiongif.gif", "/images/projects/animations/Main_snake.gif"],
+      // additionalImages: ["/images/projects/animations/Final.gif", "/images/projects/animations/hatet.gif", "/images/projects/animations/Instagram_birdandgirl.gif", "/images/projects/animations/Manonamissiongif.gif", "/images/projects/animations/Main_snake.gif"],
   },
   {
     id: 9,
@@ -136,8 +136,6 @@ export const illustrations: Illustration[] = [
     title: "Various illustrations",
     imagePath: "/images/mysticman_1.jpg",
     color: "bg-fuchsia-200",
-    description: "Character study with mystical elements.",
-    additionalImages: ["/images/mysticman_2_textur_redigerad_mörkare_2.jpg"],
   },
   {
     id: 15,
@@ -205,13 +203,7 @@ export const illustrations: Illustration[] = [
     imagePath: "/images/testatesta_5.jpg",
     color: "bg-indigo-100",
   },
-  {
-    id: 22,
-    slug: "various-illustrations",
-    title: "Various illustrations",
-    imagePath: "/images/pink.jpg",
-    color: "bg-pink-200",
-  },
+
   {
     id: 23,
     slug: "animations",
@@ -246,8 +238,8 @@ export const illustrations: Illustration[] = [
   },
   {
     id: 29,
-    slug: "what-a-time-to-be-alive",
-    title: "What a time to be alive",
+    slug: "various-illustrations",
+    title: "Various illustrations",
     imagePath: "/images/whatatimetobealive2.jpg",
     color: "bg-purple-200",
   },
