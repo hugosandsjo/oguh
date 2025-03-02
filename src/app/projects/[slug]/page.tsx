@@ -5,13 +5,13 @@ import ImageCarousel from "@/components/ImageCarousel";
 import type { Metadata, ResolvingMetadata } from "next";
 import BackToHomeButton from "@/components/BackToHomeButton";
 
-type Props = {
+type PageParams = {
   params: { slug: string };
-  searchParams: { [key: string]: string | string[] | undefined };
-};
+  searchParams?: { [key: string]: string | string[] | undefined };
+}
 
 export async function generateMetadata(
-  { params }: Props,
+  { params }: PageParams,
   parent: ResolvingMetadata
 ): Promise<Metadata> {
   // read route params
@@ -43,13 +43,8 @@ export async function generateMetadata(
   };
 }
 
-export default function ProjectPage({
-  params,
-  searchParams,
-}: {
-  params: { slug: string };
-  searchParams: { [key: string]: string | string[] | undefined };
-}) {
+export default function ProjectPage(props: PageParams) {
+  const { params, searchParams = {} } = props;
   const { slug } = params;
   
   // Find all illustrations with this slug
