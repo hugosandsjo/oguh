@@ -3,6 +3,7 @@ import { illustrations } from "@/data/illustrations";
 import { notFound } from "next/navigation";
 import ImageCarousel from "@/components/ImageCarousel";
 import type { Metadata, ResolvingMetadata } from "next";
+import BackToHomeButton from "@/components/BackToHomeButton";
 
 type Props = {
   params: Promise<{ slug: string }>;
@@ -51,6 +52,7 @@ export default async function ProjectPage({ params }: Props) {
 
   return (
     <div className="p-8">
+        <BackToHomeButton />
       <div className="max-w-5xl mx-auto">
         <h1 className="text-4xl font-semibold mb-6">{project.title}</h1>
         <p className="text-lg mb-12">{project.description}</p>
