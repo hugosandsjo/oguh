@@ -54,11 +54,11 @@ export default async function ProjectPage({ params }: Props) {
     <div className="p-8">
         <BackToHomeButton />
       <div className="max-w-5xl mx-auto">
-        <h1 className="text-4xl font-semibold mb-6">{project.title}</h1>
-        <p className="text-lg mb-12">{project.description}</p>
+        <h1 className="text-4xl font-semibold mb-4">{project.title}</h1>
+        <p className="text-lg mb-8">{project.description}</p>
 
         {/* Main Image */}
-        <div className="relative w-full mb-12 bg-gray-100 overflow-hidden">
+        <div className="relative w-full mb-4 bg-gray-100 overflow-hidden">
           <div className="relative w-full h-auto">
             <Image
               src={project.imagePath}
