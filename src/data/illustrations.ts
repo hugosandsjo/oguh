@@ -99,7 +99,7 @@ export const illustrations: Illustration[] = [
   {
     id: 10,
     slug: "animations",
-    title: "Bird and Girl",
+    title: "Animations",
     imagePath: "/images/Instagram_birdandgirl.gif",
     color: "bg-purple-200",
     description:
@@ -119,21 +119,22 @@ export const illustrations: Illustration[] = [
     title: "Various illustrations",
     imagePath: "/images/Cowboy.jpg",
     color: "bg-amber-200",
-    description: "Character illustration featuring a western theme.",
+    description: "",
+    additionalImages: ["/images/flower_2.png", "/images/flower_3.png"],
 
   },
   {
     id: 13,
-    slug: "environments",
-    title: "Environments",
+    slug: "environment",
+    title: "Environment",
     imagePath: "/images/nightforest.jpg",
     color: "bg-violet-200",
     description: "Atmospheric forest scene with mystical elements.",
   },
   {
     id: 14,
-    slug: "mystic-man",
-    title: "Mystic Man",
+    slug: "various-illustrations",
+    title: "Various illustrations",
     imagePath: "/images/mysticman_1.jpg",
     color: "bg-fuchsia-200",
     description: "Character study with mystical elements.",
@@ -142,15 +143,15 @@ export const illustrations: Illustration[] = [
   {
     id: 15,
     slug: "animations",
-    title: "Snake Animation",
+    title: "Animations",
     imagePath: "/images/Main_snake.gif",
     color: "bg-emerald-100",
     description: "Animated illustration featuring a dynamic snake character.",
   },
   {
     id: 16,
-    slug: "man-on-mission",
-    title: "Man on a Mission",
+    slug: "animations",
+    title: "Animations",
     imagePath: "/images/Manonamissiongif.gif",
     color: "bg-blue-100",
     description:

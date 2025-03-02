@@ -5,7 +5,7 @@ export default function Header() {
   return (
     <header className="pl-8 pr-8 pt-8">
       {/* Logo */}
-      <div className="flex justify-center mb-10">
+      <div className="flex justify-center mb-5">
         <Link href="/">
           <Image
             src="/images/logo_oguh.svg"
@@ -18,7 +18,7 @@ export default function Header() {
       </div>
 
       {/* Navigation */}
-      <nav className="flex justify-center gap-8 mb-16">
+      <nav className="flex justify-center gap-8">
         <Link
           href="/"
           className="text-md font-medium hover:underline underline-offset-4"

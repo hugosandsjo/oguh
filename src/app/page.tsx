@@ -4,9 +4,9 @@ import { illustrations } from "@/data/illustrations";
 
 export default function Home() {
   return (
-    <div className="p-8">
+    <div className="md:p-8 p-4">
       {/* Masonry Grid */}
-      <div className="max-w-7xl mx-auto px-4">
+      <div className="max-w-7xl mx-auto">
         <div className="columns-1 sm:columns-2 lg:columns-3 gap-4">
           {illustrations.map((illustration) => (
             <div key={illustration.id} className="break-inside-avoid mb-4">
@@ -28,7 +28,7 @@ export default function Home() {
                       sizes="(min-width: 1024px) 33vw, (min-width: 640px) 50vw, 100vw"
                       className="w-full h-auto object-cover"
                     />
-                    <div className="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300 bg-black/50">
+                    <div className="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300 bg-black/20">
                       <span className="text-white text-2xl font-semibold tracking-wide">
                         {illustration.title}
                       </span>
