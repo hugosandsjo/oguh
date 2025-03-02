@@ -5,16 +5,14 @@ import ImageCarousel from "@/components/ImageCarousel";
 import type { Metadata, ResolvingMetadata } from "next";
 import BackToHomeButton from "@/components/BackToHomeButton";
 
-type PageParams = {
-  params: { slug: string };
-  searchParams?: { [key: string]: string | string[] | undefined };
-}
+// Define params and searchParams types according to Next.js docs
+type Params = { slug: string }
+type SearchParams = { [key: string]: string | string[] | undefined }
 
 export async function generateMetadata(
-  { params }: PageParams,
+  { params }: { params: Params },
   parent: ResolvingMetadata
 ): Promise<Metadata> {
-  // read route params
   const { slug } = params;
 
   // Find all illustrations with this slug
@@ -43,8 +41,8 @@ export async function generateMetadata(
   };
 }
 
-export default function ProjectPage(props: PageParams) {
-  const { params, searchParams = {} } = props;
+// Use explicit function signature per Next.js docs
+export default function Page({ params, searchParams }: { params: Params, searchParams: SearchParams }) {
   const { slug } = params;
   
   // Find all illustrations with this slug
