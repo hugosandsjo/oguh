@@ -90,10 +90,9 @@ export default async function Page({ params, searchParams }: PageProps) {
 
   return (
     <div className="p-8">
-      <div className="max-w-5xl mx-auto max-w-[87%]">
-        <h1 className="text-4xl font-semibold mb-4">{mainIllustration.title}</h1>
+      <div className="max-w-5xl mx-auto">
+        <h1 className="text-4xl font-semibold mb-4 max-w-[87%]">{mainIllustration.title}</h1>
         <p className="text-lg mb-8">{mainIllustration.description}</p>
-
         {/* Main Image */}
         <div className="relative w-full mb-4 bg-gray-100 overflow-hidden">
           <div className="relative w-full h-auto">
