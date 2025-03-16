@@ -29,21 +29,23 @@ export default function Header() {
           onClick={() => setIsMenuOpen(!isMenuOpen)}
           aria-label="Toggle menu"
         >
-          <span 
-            className={`block w-7 h-[3px] bg-black transition-all duration-300 ease-in-out ${
-              isMenuOpen ? 'rotate-45 translate-y-2' : ''
-            }`}
-          ></span>
-          <span 
-            className={`block w-7 h-[3px] bg-black transition-all duration-300 ease-in-out ${
-              isMenuOpen ? 'opacity-0' : 'opacity-100'
-            }`}
-          ></span>
-          <span 
-            className={`block w-7 h-[3px] bg-black transition-all duration-300 ease-in-out ${
-              isMenuOpen ? '-rotate-45 -translate-y-2' : ''
-            }`}
-          ></span>
+          <div className="relative w-7 h-7 flex items-center justify-center">
+            <span 
+              className={`absolute w-7 h-[3px] bg-black transition-all duration-300 ease-in-out ${
+                isMenuOpen ? 'rotate-45' : 'translate-y-[-8px]'
+              }`}
+            ></span>
+            <span 
+              className={`absolute w-7 h-[3px] bg-black transition-all duration-300 ease-in-out ${
+                isMenuOpen ? 'opacity-0' : 'opacity-100'
+              }`}
+            ></span>
+            <span 
+              className={`absolute w-7 h-[3px] bg-black transition-all duration-300 ease-in-out ${
+                isMenuOpen ? '-rotate-45' : 'translate-y-[8px]'
+              }`}
+            ></span>
+          </div>
         </button>
       </div>
 
