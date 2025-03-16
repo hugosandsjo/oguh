@@ -107,11 +107,12 @@ export const illustrations: Illustration[] = [
   },
   {
     id: 11,
-    slug: "bird-relations",
-    title: "Bird Relations",
+    slug: "birds-relations",
+    title: "Birds Relations",
     imagePath: "/images/tillit.png",
     color: "bg-orange-200",
-    description: "Illustration exploring themes of trust and human connection.",
+    description: "Illustration for the couples therapy app Birds Relations, designed to help couples improve their communication and relationship. Illustrations were created to represent different themes and topics like communication, conflict, trust, romance, warmth and closeness.",
+    additionalImages: ["/images/projects/birds_relations/bjud_in.png", "/images/projects/birds_relations/bli_ett_battre_team.png", "/images/projects/birds_relations/kommunikation.png", "/images/projects/birds_relations/konflikthantering.png", "/images/projects/birds_relations/sex.png", "/images/projects/birds_relations/tillit.png",],
   },
   {
     id: 12,
@@ -181,11 +182,11 @@ export const illustrations: Illustration[] = [
   },
   {
     id: 19,
-    slug: "fattigdom",
+    slug: "fattigdomsrapporten",
     title: "Fattigdomsrapporten",
     imagePath: "/images/fattigdomsrapport.jpg",
     color: "bg-orange-100",
-    description: "Editorial illustration addressing social issues and poverty.",
+    description: "Cover for Sveriges stadsmissioners yearly publication Fattigdomsrapporten. Providing information and staistics about poverty in Sweden.",
   },
   {
     id: 20,
