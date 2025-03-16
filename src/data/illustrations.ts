@@ -29,8 +29,8 @@ export const illustrations: Illustration[] = [
     imagePath: "/images/Ungdomar_Final.jpg",
     color: "bg-indigo-200",
     description:
-      "Illustration project focused on youth and contemporary social themes.",
-    // additionalImages: ["/images/projects/uppsalastadsteater/Ungdomar_Final.jpg", "/images/projects/uppsalastadsteater/Skolor_Final.jpg"],
+      "Illustrations for the Uppsala Stadsteater website, designed to engage and inform young audiences about the theatre's performances and activities.",
+      additionalImages: ["/images/projects/uppsalastadsteater/Barnochfamiljer_Final.png",],
   },
   {
     id: 3,
