@@ -3,7 +3,6 @@ import { illustrations } from "@/data/illustrations";
 import { notFound } from "next/navigation";
 import ImageCarousel from "@/components/ImageCarousel";
 import type { Metadata, ResolvingMetadata } from "next";
-import BackToHomeButton from "@/components/BackToHomeButton";
 
 // Define the props for the page component with both params and searchParams as promises
 type PageProps = {
