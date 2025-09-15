@@ -102,10 +102,10 @@ export const illustrations: Illustration[] = [
     id: 9,
     slug: "color-studies",
     title: "Color Studies",
-    imagePath: "/images/Roda2.jpg",
+    imagePath: "/images/roda2.jpg",
     color: "bg-green-100",
     description: "Series of color studies exploring different palettes.",
-    additionalImages: ["/images/Roda2.jpg"],
+    additionalImages: ["/images/roda2.jpg"],
   },
   {
     id: 10,
@@ -188,8 +188,8 @@ export const illustrations: Illustration[] = [
     color: "bg-red-100",
     description: "Image for the theatre play 'Hatet' at Uppsala Stadsteater.",
     additionalImages: [
-      "/images/projects/hatet/hatet_poster.jpg",
-      "/images/projects/hatet/hatet_instagram-02.jpg",
+      "/images/projects/hatet/hatetposter.jpg",
+      "/images/projects/hatet/hatetinstagram02.jpg",
     ],
   },
   {
