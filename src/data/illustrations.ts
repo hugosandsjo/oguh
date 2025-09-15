@@ -258,7 +258,7 @@ export const illustrations: Illustration[] = [
     id: 26,
     slug: "animations",
     title: "Animations",
-    imagePath: "/images/final.gif",
+    imagePath: "/images/final_bird.gif",
     color: "bg-rose-200",
     description: "Illustration project celebrating creativity and art.",
   },
