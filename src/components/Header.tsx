@@ -8,7 +8,7 @@ export default function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   return (
-    <header className="pl-8 pr-8 md:pt-20 relative">
+    <header className="pl-8 pr-8 md:pt-10 relative">
       {/* Logo - Only visible on desktop */}
       <div className="hidden md:flex justify-center mb-5">
         <Link href="/">
@@ -30,19 +30,19 @@ export default function Header() {
           aria-label="Toggle menu"
         >
           <div className="relative w-7 h-7 flex items-center justify-center">
-            <span 
+            <span
               className={`absolute w-7 h-[3px] bg-black transition-all duration-300 ease-in-out ${
-                isMenuOpen ? 'rotate-45' : 'translate-y-[-8px]'
+                isMenuOpen ? "rotate-45" : "translate-y-[-8px]"
               }`}
             ></span>
-            <span 
+            <span
               className={`absolute w-7 h-[3px] bg-black transition-all duration-300 ease-in-out ${
-                isMenuOpen ? 'opacity-0' : 'opacity-100'
+                isMenuOpen ? "opacity-0" : "opacity-100"
               }`}
             ></span>
-            <span 
+            <span
               className={`absolute w-7 h-[3px] bg-black transition-all duration-300 ease-in-out ${
-                isMenuOpen ? '-rotate-45' : 'translate-y-[8px]'
+                isMenuOpen ? "-rotate-45" : "translate-y-[8px]"
               }`}
             ></span>
           </div>
@@ -66,16 +66,16 @@ export default function Header() {
       </nav>
 
       {/* Mobile Navigation */}
-      <div 
+      <div
         className={`fixed inset-0 bg-white z-[90] transition-transform duration-300 ease-in-out ${
-          isMenuOpen ? 'translate-y-0' : '-translate-y-full'
+          isMenuOpen ? "translate-y-0" : "-translate-y-full"
         } md:hidden`}
       >
         {/* Remove the separate close button since the hamburger already transforms into an X */}
         <div className="p-8">
           {/* Empty space to match the layout without the separate close button */}
         </div>
-        
+
         {/* Logo in mobile menu */}
         <div className="flex justify-center mb-8">
           <Link href="/" onClick={() => setIsMenuOpen(false)}>
@@ -88,7 +88,7 @@ export default function Header() {
             />
           </Link>
         </div>
-        
+
         <nav className="flex flex-col items-center justify-center h-1/2">
           <Link
             href="/"

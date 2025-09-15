@@ -7,7 +7,8 @@ export const illustrations: Illustration[] = [
     title: "Full Koll Campaign",
     imagePath: "/images/projects/fullkoll/fullkoll_06.jpg",
     color: "bg-cyan-200",
-    description: "Together with Gullersgrupp, I developed a set of illustrations and visual identity for the County Administrative Board and the 'Full Koll’ campaign. Intended to inform teenage parents about setting boundaries around alcohol and drugs and the importance of talking about the subject.",
+    description:
+      "Together with Gullersgrupp, I developed a set of illustrations and visual identity for the County Administrative Board and the 'Full Koll’ campaign. Intended to inform teenage parents about setting boundaries around alcohol and drugs and the importance of talking about the subject.",
     additionalImages: [
       "/images/projects/fullkoll/firstdude.jpg",
       "/images/projects/fullkoll/fullkoll_01.jpg",
@@ -24,13 +25,15 @@ export const illustrations: Illustration[] = [
   },
   {
     id: 2,
-    slug: "uppsala-stadsteater-site", 
+    slug: "uppsala-stadsteater-site",
     title: "Uppsala Stadsteater Website",
     imagePath: "/images/Ungdomar_Final.jpg",
     color: "bg-indigo-200",
     description:
       "Illustrations for the Uppsala Stadsteater website, designed to engage and inform young audiences about the theatre's performances and activities.",
-      additionalImages: ["/images/projects/uppsalastadsteater/Barnochfamiljer_Final.png",],
+    additionalImages: [
+      "/images/projects/uppsalastadsteater/Barnochfamiljer_Final.png",
+    ],
   },
   {
     id: 3,
@@ -40,7 +43,11 @@ export const illustrations: Illustration[] = [
     color: "bg-emerald-200",
     description:
       "A moody illustration exploring nighttime forest scenes with atmospheric lighting and detailed environments.",
-      additionalImages: ["/images/jungle.jpg", "/images/nightforest.jpg", "/images/pink.jpg"],
+    additionalImages: [
+      "/images/jungle.jpg",
+      "/images/nightforest.jpg",
+      "/images/pink.jpg",
+    ],
   },
   {
     id: 4,
@@ -49,7 +56,7 @@ export const illustrations: Illustration[] = [
     imagePath: "/images/Grona2.jpg",
     color: "bg-green-100",
     description: "Series of color studies exploring different palettes.",
-    additionalImages: ["/images/Roda2.jpg"],
+    additionalImages: ["/images/roda2.jpg"],
   },
   {
     id: 5,
@@ -57,7 +64,14 @@ export const illustrations: Illustration[] = [
     title: "Various illustrations",
     imagePath: "/images/colorswhatatime2.jpg",
     color: "bg-purple-100",
-    additionalImages: ["/images/whatatimetobealive2.jpg", "/images/trycolor_5.jpg", "/images/testatesta_5.jpg", "/images/newforinsta.jpg", "/images/mysticman_1.jpg", "/images/housingandcharactersweb.jpg"],
+    additionalImages: [
+      "/images/whatatimetobealive2.jpg",
+      "/images/trycolor_5.jpg",
+      "/images/testatesta_5.jpg",
+      "/images/newforinsta.jpg",
+      "/images/mysticman_1.jpg",
+      "/images/housingandcharactersweb.jpg",
+    ],
   },
   {
     id: 6,
@@ -65,8 +79,7 @@ export const illustrations: Illustration[] = [
     title: "Character Poster",
     imagePath: "/images/characterposter_2022.jpg",
     color: "bg-blue-200",
-    description:
-      "",
+    description: "",
   },
   {
     id: 7,
@@ -81,11 +94,9 @@ export const illustrations: Illustration[] = [
     id: 8,
     slug: "animations",
     title: "Animations",
-    imagePath: "/images/Main_vacation.gif",
+    imagePath: "/images/main_vacation.gif",
     color: "bg-yellow-200",
-    description:
-      "Collection of short animations",
-      // additionalImages: ["/images/projects/animations/Final.gif", "/images/projects/animations/hatet.gif", "/images/projects/animations/Instagram_birdandgirl.gif", "/images/projects/animations/Manonamissiongif.gif", "/images/projects/animations/Main_snake.gif"],
+    description: "Collection of short animations",
   },
   {
     id: 9,
@@ -111,8 +122,16 @@ export const illustrations: Illustration[] = [
     title: "Birds Relations",
     imagePath: "/images/tillit.png",
     color: "bg-orange-200",
-    description: "Illustration for the couples therapy app Birds Relations, designed to help couples improve their communication and relationship. Illustrations were created to represent different themes and topics like communication, conflict, trust, romance, warmth and closeness.",
-    additionalImages: ["/images/projects/birds_relations/bjud_in.png", "/images/projects/birds_relations/bli_ett_battre_team.png", "/images/projects/birds_relations/kommunikation.png", "/images/projects/birds_relations/konflikthantering.png", "/images/projects/birds_relations/sex.png", "/images/projects/birds_relations/tillit.png",],
+    description:
+      "Illustration for the couples therapy app Birds Relations, designed to help couples improve their communication and relationship. Illustrations were created to represent different themes and topics like communication, conflict, trust, romance, warmth and closeness.",
+    additionalImages: [
+      "/images/projects/birds_relations/bjud_in.png",
+      "/images/projects/birds_relations/bli_ett_battre_team.png",
+      "/images/projects/birds_relations/kommunikation.png",
+      "/images/projects/birds_relations/konflikthantering.png",
+      "/images/projects/birds_relations/sex.png",
+      "/images/projects/birds_relations/tillit.png",
+    ],
   },
   {
     id: 12,
@@ -121,7 +140,6 @@ export const illustrations: Illustration[] = [
     imagePath: "/images/Cowboy.jpg",
     color: "bg-amber-200",
     description: "",
-
   },
   {
     id: 13,
@@ -142,7 +160,7 @@ export const illustrations: Illustration[] = [
     id: 15,
     slug: "animations",
     title: "Animations",
-    imagePath: "/images/Main_snake.gif",
+    imagePath: "/images/main_snake.gif",
     color: "bg-emerald-100",
     description: "Animated illustration featuring a dynamic snake character.",
   },
@@ -169,16 +187,23 @@ export const illustrations: Illustration[] = [
     imagePath: "/images/hatet.gif",
     color: "bg-red-100",
     description: "Image for the theatre play 'Hatet' at Uppsala Stadsteater.",
-    additionalImages: ["/images/projects/hatet/hatet_poster.jpg", "/images/projects/hatet/hatet_instagram-02.jpg"],
+    additionalImages: [
+      "/images/projects/hatet/hatet_poster.jpg",
+      "/images/projects/hatet/hatet_instagram-02.jpg",
+    ],
   },
   {
     id: 24,
     slug: "illustration-festival",
     title: "Illustration Festival",
-    imagePath: "/images/projects/bildvarld/festival_poster.jpg",    
+    imagePath: "/images/projects/bildvarld/festival_poster.jpg",
     color: "bg-rose-200",
-    description: "Image created for Bildvärld/Gränslands yearly illustration-festival in Malmö, Sweden. (2024)",
-    additionalImages: ["/images/projects/bildvarld/P1053754.jpg", "/images/projects/bildvarld/P1053583.jpg"],
+    description:
+      "Image created for Bildvärld/Gränslands yearly illustration-festival in Malmö, Sweden. (2024)",
+    additionalImages: [
+      "/images/projects/bildvarld/P1053754.jpg",
+      "/images/projects/bildvarld/P1053583.jpg",
+    ],
   },
   {
     id: 19,
@@ -186,7 +211,8 @@ export const illustrations: Illustration[] = [
     title: "Fattigdomsrapporten",
     imagePath: "/images/fattigdomsrapport.jpg",
     color: "bg-orange-100",
-    description: "Cover for Sveriges stadsmissioners yearly publication Fattigdomsrapporten. Providing information and staistics about poverty in Sweden.",
+    description:
+      "Cover for Sveriges stadsmissioners yearly publication Fattigdomsrapporten. Providing information and staistics about poverty in Sweden.",
   },
   {
     id: 20,
@@ -195,7 +221,14 @@ export const illustrations: Illustration[] = [
     imagePath: "/images/hoppicorona.jpeg",
     color: "bg-pink-100",
     description: "Illustration reflecting on the pandemic period.",
-    additionalImages: ["/images/projects/hopp_i_corona/illustratorcentrum_2021.png", "/images/projects/hopp_i_corona/IMG_0563.png", "/images/projects/hopp_i_corona/IMG_0715.png", "/images/projects/hopp_i_corona/IMG_5323.png", "/images/projects/hopp_i_corona/IMG_5380.png", "/images/projects/hopp_i_corona/IMG_5465.png"]
+    additionalImages: [
+      "/images/projects/hopp_i_corona/illustratorcentrum_2021.png",
+      "/images/projects/hopp_i_corona/IMG_0563.png",
+      "/images/projects/hopp_i_corona/IMG_0715.png",
+      "/images/projects/hopp_i_corona/IMG_5323.png",
+      "/images/projects/hopp_i_corona/IMG_5380.png",
+      "/images/projects/hopp_i_corona/IMG_5465.png",
+    ],
   },
   {
     id: 21,
@@ -227,13 +260,13 @@ export const illustrations: Illustration[] = [
     title: "Animations",
     imagePath: "/images/final.gif",
     color: "bg-rose-200",
-    description: "Illustration project celebrating creativity and art."
+    description: "Illustration project celebrating creativity and art.",
   },
   {
     id: 28,
     slug: "uppsala-stadsteater-site",
     title: "Uppsala Stadsteater Website",
-    imagePath: "/images/Skolor_Final.jpg",
+    imagePath: "/images/skolor_final.jpg",
     color: "bg-pink-200",
     description: "Educational themed illustration series.",
   },
