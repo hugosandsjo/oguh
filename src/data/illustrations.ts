@@ -168,7 +168,7 @@ export const illustrations: Illustration[] = [
     id: 16,
     slug: "animations",
     title: "Animations",
-    imagePath: "/images/manonamissiongif.gif",
+    imagePath: "/images/manonamissiongif_character.gif",
     color: "bg-blue-100",
     description:
       "Animated character study of a determined individual on a journey.",
