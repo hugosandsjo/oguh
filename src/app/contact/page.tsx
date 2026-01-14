@@ -48,12 +48,12 @@ export default function ContactPage() {
               <p>
                 <span className="font-medium">Instagram: </span>
                 <a
-                  href="https://instagram.com/im.oguh"
+                  href="https://www.instagram.com/hugosandsjo_illustration"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-gray-600 hover:underline"
                 >
-                  @im.oguh
+                  @hugosandsjo_illustration
                 </a>
               </p>
             </div>
@@ -65,6 +65,7 @@ export default function ContactPage() {
               </h2>
               <ul className="space-y-2 text-gray-600">
                 <li>Sveriges länsstyrelser</li>
+                <li>Göteborg Film Festival</li>
                 <li>Uppsala Stadsteater</li>
                 <li>Gatutidningen Faktum</li>
                 <li>Sveriges Stadsmissioner</li>
