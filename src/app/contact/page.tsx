@@ -65,6 +65,7 @@ export default function ContactPage() {
               </h2>
               <ul className="space-y-2 text-gray-600">
                 <li>Sveriges länsstyrelser</li>
+                <li>Göteborg Film Festival</li>
                 <li>Uppsala Stadsteater</li>
                 <li>Gatutidningen Faktum</li>
                 <li>Sveriges Stadsmissioner</li>
